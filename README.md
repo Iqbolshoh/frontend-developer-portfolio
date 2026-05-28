@@ -1,21 +1,42 @@
 # 🌟 Frontend Developer Portfolio
 
-Welcome to my personal **Frontend Developer Portfolio**! This repository features a modern, interactive, and visually stunning portfolio designed to showcase my technical skills, professional experience, and completed projects. 
+Welcome to my personal **Frontend Developer Portfolio** — a modern, responsive, and interactive web experience crafted to showcase my skills, projects, and passion for frontend development.
 
-Built with a strong focus on clean aesthetics and a seamless user experience, it includes multiple design variations to suit different styles.
+This portfolio combines clean design, smooth animations, and modern UI trends to create a professional and visually engaging experience for visitors.
 
-## ✨ Key Features
+---
 
-### 🎨 Modern UI/UX Design
-- **Trendy Layouts:** Utilizes **Glassmorphism** and **Bento Grid** concepts for a sleek, contemporary look.
-- **Engaging Animations:** Features smooth scrolling, staggered "fade-in-up" entrance effects, and interactive CSS hover animations.
+## ✨ Features
 
-### 🌗 Seamless Dark & Light Mode
-- **User Control:** Easily toggle between dark and light themes with a single click.
-- **System Synchronization:** Automatically detects and adapts to your device's preferred color scheme.
+### 🎨 Modern & Elegant UI/UX
 
-### 📱 Fully Responsive
-- **Mobile-First Approach:** Perfectly optimized for mobile phones, tablets, and large desktop monitors, ensuring a flawless experience across all screen sizes.
+* Designed with modern trends like **Glassmorphism** and **Bento Grid Layouts**
+* Clean typography, balanced spacing, and premium visual aesthetics
+* Interactive hover effects and polished micro-animations
+
+### ⚡ Smooth Animations & Interactions
+
+* Beautiful scroll-based animations
+* Smooth transitions and engaging UI effects
+* Enhanced user experience with dynamic visual feedback
+
+### 🌗 Dark & Light Mode
+
+* Instantly switch between dark and light themes
+* Automatically adapts to the user's system preferences
+* Carefully selected color palettes for both modes
+
+### 📱 Fully Responsive Design
+
+* Optimized for mobile, tablet, laptop, and desktop devices
+* Mobile-first approach for better accessibility and usability
+* Consistent experience across all screen sizes
+
+### 🚀 Performance Focused
+
+* Lightweight and optimized frontend structure
+* Fast loading speed and smooth navigation
+* Clean and maintainable codebase
 
 ---
 
@@ -43,13 +64,13 @@ Follow these simple steps to run the portfolio locally on your machine:
 Open your terminal and run:
 
 ```bash
-git clone https://github.com/Iqbolshoh/frontend-portfolio.git
+git clone https://github.com/Iqbolshoh/frontend-developer-portfolio.git
 ```
 
 ### 2️⃣ Navigate to the Project Directory 📂
 
 ```bash
-cd frontend-portfolio
+cd frontend-developer-portfolio
 ```
 
 ### 3️⃣ Run the Application 🚀
