@@ -1,8 +1,21 @@
-### 5️⃣ Run the Application 🚀
+# 🌟 Frontend Developer Portfolio
 
-- Deploy on a **PHP-compatible server** (e.g., Apache, Nginx).
-- Open your browser and go to:  
-  **`http://localhost/frontend-developer-portfolio`**
+Welcome to my personal frontend developer portfolio! This project is built using modern web technologies to showcase my experience, skills, and completed projects.
+
+## ✨ Key Features
+
+- **Modern UI/UX Design**: Clean, interactive, and attractive interface utilizing Glassmorphism and Bento grid styles[cite: 3].
+- **Dark/Light Mode**: User-selectable light or dark mode toggle that also respects your system preferences[cite: 1, 3].
+- **Fully Responsive**: Perfectly adapted for mobile devices, tablets, and desktops using a mobile-first approach[cite: 1, 3].
+- **Smooth Animations**: Features smooth scrolling, staggered "fade-in-up" load effects, and various CSS hover animations[cite: 1, 3].
+- **Comprehensive Structure**: Includes essential sections such as Home, About, Skills (Expertise), Projects (Work), and Contact[cite: 1, 3].
+
+## 📁 Available Versions
+
+This repository contains two distinct variations of the portfolio design:
+
+- **`index.html`**: The standard version featuring a clean, professional design, soft shadow effects, and a fixed backdrop-blur navigation bar[cite: 1].
+- **`v2.html`**: A premium, advanced version featuring ambient glow effects, floating elements, a glassmorphism panel design, and staggered entrance animations[cite: 3].
 
 ## 🖥 Technologies Used
 
