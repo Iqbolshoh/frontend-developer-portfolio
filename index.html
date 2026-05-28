@@ -17,7 +17,7 @@
                         sans: ['Inter', 'sans-serif'],
                     },
                     colors: {
-                        primary: '#3b82f6', // Blue-500
+                        primary: '#3b82f6',
                     }
                 }
             }
@@ -46,18 +46,21 @@
 
 <body class="bg-slate-50 dark:bg-slate-900 text-slate-900 dark:text-slate-100 transition-colors duration-300">
 
+    <!-- Navigation bar -->
     <nav
         class="fixed w-full z-50 top-0 left-0 backdrop-blur-md bg-white/70 dark:bg-slate-900/70 border-b border-gray-200 dark:border-slate-700 transition-colors duration-300">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between items-center h-16">
 
+                <!-- Logo container -->
                 <div class="flex-shrink-0 flex items-center">
-                    <a href="#"
-                        class="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-indigo-600">
-                        Portfolio.
+                    <a href="#">
+                        <img src="./images/logo.png" alt="Iqbolshoh dev Logo"
+                            class="h-10 w-auto dark:bg-white dark:px-2 dark:py-1 dark:rounded-md transition-colors">
                     </a>
                 </div>
 
+                <!-- Desktop menu -->
                 <div class="hidden md:flex items-center space-x-8">
                     <a href="#home" class="hover:text-primary font-medium transition-colors">Home</a>
                     <a href="#about" class="hover:text-primary font-medium transition-colors">About</a>
@@ -66,6 +69,7 @@
                     <a href="#services" class="hover:text-primary font-medium transition-colors">Services</a>
                     <a href="#contact" class="hover:text-primary font-medium transition-colors">Contact</a>
 
+                    <!-- Dark mode toggle button -->
                     <button onclick="toggleDarkMode()"
                         class="p-2 rounded-full hover:bg-gray-200 dark:hover:bg-slate-800 transition-colors focus:outline-none"
                         aria-label="Toggle Dark Mode">
@@ -80,6 +84,7 @@
                     </button>
                 </div>
 
+                <!-- Mobile menu toggles -->
                 <div class="md:hidden flex items-center">
                     <button onclick="toggleDarkMode()"
                         class="p-2 mr-2 rounded-full hover:bg-gray-200 dark:hover:bg-slate-800 transition-colors">
@@ -103,6 +108,7 @@
             </div>
         </div>
 
+        <!-- Mobile dropdown menu -->
         <div id="mobile-menu"
             class="hidden md:hidden bg-white dark:bg-slate-900 border-b border-gray-200 dark:border-slate-700">
             <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
@@ -122,10 +128,12 @@
         </div>
     </nav>
 
+    <!-- Hero section -->
     <section id="home" class="pt-28 pb-16 md:pt-36 md:pb-24 flex items-center min-h-screen">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
             <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
 
+                <!-- Hero text content -->
                 <div class="flex flex-col space-y-6">
                     <div>
                         <p class="text-primary font-medium tracking-wide uppercase mb-2">Hello, World! 👋</p>
@@ -144,6 +152,7 @@
                         user-friendly digital solutions.
                     </p>
 
+                    <!-- Hero action buttons -->
                     <div class="flex flex-wrap gap-4 pt-4">
                         <a href="#projects"
                             class="px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white font-medium rounded-lg shadow-lg shadow-blue-500/30 transition-all transform hover:-translate-y-1">
@@ -159,6 +168,7 @@
                         </a>
                     </div>
 
+                    <!-- Social media links -->
                     <div class="flex items-center space-x-5 pt-6">
                         <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white transition-colors">
                             <span class="sr-only">GitHub</span>
@@ -178,6 +188,7 @@
                     </div>
                 </div>
 
+                <!-- Hero image section -->
                 <div class="relative flex justify-center md:justify-end">
                     <div
                         class="absolute inset-0 bg-gradient-to-tr from-blue-500 to-purple-500 rounded-full blur-3xl opacity-20 dark:opacity-40 animate-pulse">
@@ -185,10 +196,11 @@
 
                     <div
                         class="relative w-72 h-72 md:w-80 md:h-80 lg:w-96 lg:h-96 rounded-3xl overflow-hidden border-4 border-white dark:border-slate-800 shadow-2xl rotate-3 hover:rotate-0 transition-transform duration-300">
-                        <img src="https://ui-avatars.com/api/?name=Iqbolshoh+Ilhomjonov&size=512&background=3b82f6&color=fff"
-                            alt="Profile Image" class="w-full h-full object-cover">
+                        <!-- Profile image -->
+                        <img src="./images/profile.png" alt="Iqbolshoh Ilhomjonov Profile" class="w-full h-full object-cover">
                     </div>
 
+                    <!-- Floating badge -->
                     <div
                         class="absolute -bottom-6 -left-6 md:left-10 bg-white dark:bg-slate-800 p-4 rounded-2xl shadow-xl border border-gray-100 dark:border-slate-700 backdrop-blur-sm">
                         <div class="flex items-center space-x-3">
@@ -205,6 +217,7 @@
         </div>
     </section>
 
+    <!-- About section placeholder -->
     <section id="about"
         class="min-h-screen border-t border-gray-200 dark:border-slate-800 flex items-center justify-center">
         <h2 class="text-4xl font-bold opacity-30">About Section</h2>
